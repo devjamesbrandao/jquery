@@ -8,3 +8,8 @@
 
 # Selecionar atributos de tags
     $ Acessar src da imagem - $('img').attr('src')
+    $ Atribuir novo valor ao atributo - $('img').attr('border', '5')
+
+# Manipular conteúdo de elementos HTML
+    $ Acessar conteúdo - $('#div1').html()
+    $ Atribuir novo conteúdo - $('$div1').html('<p>Teste</p>')
