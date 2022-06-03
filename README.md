@@ -24,3 +24,7 @@
         - $.each($('.interesse:checked'), (indice, valor) => {
             console.log(indice, valor.value);
         });
+
+# Inserir e remover elementos HTML
+    $ Inserir - $('ul').append('<li>Teste</li>') (prepend/after/before)
+    $ Remover - $('ul').remove()
