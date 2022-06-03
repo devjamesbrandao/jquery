@@ -13,3 +13,7 @@
 # Manipular conteúdo de elementos HTML
     $ Acessar conteúdo - $('#div1').html()
     $ Atribuir novo conteúdo - $('$div1').html('<p>Teste</p>')
+
+# Recuperar e manipular valores de inputs (text) e selects
+    $ Recuperar valor - $('nome').val()
+    $ Atribuir novo valor - $('nome').val('Teste')
