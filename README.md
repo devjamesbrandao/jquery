@@ -1,7 +1,10 @@
 # Seletores de elementos
-    # tag - $('h1')
-    # classe - $('.class')
-    # id - $('#id')
+    $ tag - $('h1')
+    $ classe - $('.class')
+    $ id - $('#id')
 
 # Sequência de execução de código
-    # espera o html e css carregar e depois executa a função - $(document).ready(function(){...})
+    $ Espera o html e css carregar e depois executa a função - $(document).ready(function(){...})
+
+# Selecionar atributos de tags
+    $ Acessar src da imagem - $('img').attr('src')
