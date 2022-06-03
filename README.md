@@ -17,3 +17,10 @@
 # Recuperar e manipular valores de inputs (text) e selects
     $ Recuperar valor - $('nome').val()
     $ Atribuir novo valor - $('nome').val('Teste')
+
+# Recuperar e manipular valor de check-box e radio
+    $ Recuperar valor de input tipo radio - $('.sexo:checked').val()
+    $ Recuperar valor de input tipo check-box :
+        - $.each($('.interesse:checked'), (indice, valor) => {
+            console.log(indice, valor.value);
+        });
