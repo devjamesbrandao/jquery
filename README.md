@@ -28,3 +28,8 @@
 # Inserir e remover elementos HTML
     $ Inserir - $('ul').append('<li>Teste</li>') (prepend/after/before)
     $ Remover - $('ul').remove()
+
+# Navegando entre elementos HTML
+    $ .parent() - busca o elemento pai
+    $ .closest() - procura por elementos pais
+    $ .find() - procura por elementos filhos
