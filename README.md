@@ -33,3 +33,14 @@
     $ .parent() - busca o elemento pai
     $ .closest() - procura por elementos pais
     $ .find() - procura por elementos filhos
+
+
+# Manipulando CSS
+    $('#topo').css({ 'color' : 'red' });
+    $('#topo').css('color', 'red');
+
+    .addClass('classe') - adiciona uma classe ao elemento selecionado
+
+    .hasClass('classe') - verifica se um elemento possui determinada classe
+
+    .removeClass('classe') - remove a classe de determinado elemento
