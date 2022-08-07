@@ -1,3 +1,11 @@
+<h1 align="center"><strong>Jquery</strong></h1>
+
+<hr/>
+
+<p align="center">
+    <img src="/Images/jquery.png" alt="Jquery" title="jquery">
+</p> 
+
 # Seletores de elementos
     $ tag - $('h1')
     $ classe - $('.class')
