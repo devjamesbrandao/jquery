@@ -44,3 +44,28 @@
     .hasClass('classe') - verifica se um elemento possui determinada classe
 
     .removeClass('classe') - remove a classe de determinado elemento
+
+# Eventos do navegador
+    $(window).scroll(() => { }) - Scroll do mouse
+
+    $(window).resize(() => { }) - Resize da página
+
+# Eventos do mouse
+    $('#btn1').mousedown(() => { }) - Evento ao passar o mouse sobre determinado elemento
+
+    $('#btn1').click(() => { }) - Evento ao clicar em determinado elemento com o mouse
+
+    $('#btn2').dblclick(() => { }) - Evento ao clicar duas vezes em determinado elemento com o mouse
+
+    $('#div2').mousemove((e) => { }) - Evento ao mover o mouse sobre determinado elemento
+
+    $('#divExterna').mouseenter(() => { }) - Evento ao entrar em determinado elemento com o mouse
+
+    $('#divExterna').mouseleave(() => { }) - Evento ao sair de determinado elemento com o mouse
+
+# Eventos do teclado 
+    $('#teclado').keydown((e) => { }) - Evento ocorre ao clicar em determinado tecla do teclado
+
+    $('#teclado').keyup((e) => { }) - Evento ocorre ao soltar determinada tecla
+
+    
