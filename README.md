@@ -76,4 +76,24 @@
 
     $('#teclado').keyup((e) => { }) - Evento ocorre ao soltar determinada tecla
 
+# Capturar valor de um campo
+    $('#input').keydown((e) => { console.log($(e.target).val()); })
+
+# Eventos de formulário
+    $('#nome').focus((e) => { }) - Evento ocorre ao clicar em um input de formulário
+
+    $('#nome').blur((e) => { }) - Evento ocorre ao desfocar de um input de formulário
+
+    $('#opcao').change((e) => { }) - Evento ocorre ao alterar um valor de input type select
+
+    $('form').submit((e) => { }) - Evento ocorre ao enviar um formulário
+
+# Evitar comportamento padrão de determinado elemento HTML
+    $('a').click(e => { e.preventDefault() }) - Evita redirecionamento da tag 'a'
+
+# Adicionar eventos a tags filhas de determinado elemento HTML
+    $('body').on('focus', 'input', e => { }) - adiciona evento 'focus' a todos os inputs filhos da tag 'body'
+
+    $('body').off('focus', 'input', e => { }) - remove evento 'focus' de todos os inputs filhos da tag 'body'
+
     
